@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="6" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-15T14:52:40Z" name="OrangeHRM_Test_Suite" finished-at="2024-05-15T14:53:39Z" duration-ms="59144">
+    <groups>
+    </groups>
+    <test started-at="2024-05-15T14:52:40Z" name="AdminPageTest" finished-at="2024-05-15T14:53:39Z" duration-ms="59144">
+      <class name="testCases.AdminPageTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testCases.AdminPageTest@3901d134]" started-at="2024-05-15T20:22:37Z" name="beforeSuite" finished-at="2024-05-15T20:22:40Z" duration-ms="2980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="launchURL()[pri:0, instance:testCases.AdminPageTest@3901d134]" started-at="2024-05-15T20:22:40Z" name="launchURL" finished-at="2024-05-15T20:23:14Z" duration-ms="33943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="pageLogin()[pri:0, instance:testCases.AdminPageTest@3901d134]" started-at="2024-05-15T20:23:14Z" name="pageLogin" finished-at="2024-05-15T20:23:22Z" depends-on-methods="testCases.AdminPageTest.launchURL" duration-ms="8678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageLogin -->
+        <test-method signature="editGeneralInformation()[pri:0, instance:testCases.AdminPageTest@3901d134]" started-at="2024-05-15T20:23:22Z" name="editGeneralInformation" finished-at="2024-05-15T20:23:39Z" depends-on-methods="testCases.AdminPageTest.pageLogin" duration-ms="16490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editGeneralInformation -->
+      </class> <!-- testCases.AdminPageTest -->
+    </test> <!-- AdminPageTest -->
+  </suite> <!-- OrangeHRM_Test_Suite -->
+</testng-results>
